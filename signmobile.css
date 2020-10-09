@@ -1,0 +1,147 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#main{
+  margin: 50px auto;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  padding: 8px;
+  background: whitesmoke;
+  height: 85vh;
+  width: 600px;
+  box-shadow: 2px 2px 8px 2px gray;
+}
+.main{
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 4px 0 gray;
+}
+.headpart{
+  color: blue;
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+  margin: auto;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+img{
+  display: none;
+}
+.webname{
+  width: 100%;
+  text-align: center;
+}
+.webname h1{
+  font-size: 30px;
+}
+.webname p{
+  font-size: small;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+}
+hr{
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 0 0.4px 0 rgb(182, 182, 182);
+  border: 0.01px solid rgb(224, 222, 222);
+  margin-top: 20px;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+}
+.single{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.single h2{
+  padding: 10px 0px 15px 0px;
+  font-family: sans-serif;
+  font-size: 20;
+}
+.single ul{
+  margin-left: 16px;
+}
+.check{
+  margin-top: 3px;
+  margin-left: 20px;
+}
+.log{
+  margin-left: 0;
+  background: rgb(221, 218, 218);
+  color: black;
+  width: 4.8cm;
+  border-radius: 4px;
+  outline-color: rgb(70, 70, 247);
+  cursor: pointer;
+  padding: 5px;
+  border: none;
+  margin-top: 2px;
+}
+.sso{
+  outline: none;
+  background: rgb(59, 59, 247);
+  width: 3cm;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 3px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.moodle{ 
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 5cm;
+  width: 100%;
+  margin-bottom: 10px 10px 0 10px;
+  line-height: 2rem;
+}
+.moodle h2{
+  margin-left: 10px;
+  padding: 0;
+  font-size: 20;
+  text-align: left;
+  margin-bottom: 1px;
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+a:hover{
+  font-size: 15;
+}
+.line{
+  width: 80%;
+}
+footer{
+  width: 98%;
+  padding: 8px;
+  text-align: center;
+}
+form{
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+input {
+  padding: 6px;
+  margin-top: 6px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 0.5px solid gray;
+  outline-color: none;
+  outline: none;
+  margin-left: 0;
+}
